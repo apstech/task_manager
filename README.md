@@ -8,7 +8,7 @@ Asegure que já tenha o Rust e o Cargo instalado na sua maquina, se não só seg
 
 <table>
 <tr>
-<td align="center"><a href="https://www.rust-lang.org/pt-BR/learn/get-started"  target="_blank"><img src="https://static-00.iconduck.com/assets.00/file-type-rust-icon-256x256-f81hgcmj.png" width="64" /></td>
+<td align="center"><a href="https://www.rust-lang.org/pt-BR/learn/get-started" target="_blank" rel="noreferrer noopener"><img src="https://static-00.iconduck.com/assets.00/file-type-rust-icon-256x256-f81hgcmj.png" width="64" /></td>
 </tr>
 <tr>
 <td align="center">Rust</td>
