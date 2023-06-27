@@ -1,7 +1,7 @@
 # Task Manager
 
 
- Está é uma aplicação back-end feita em Rust consumindo uma base de dos MYSQL
+ Está é uma aplicação back-end feita em Rust consumindo uma base de dos MYSQL utilizando atutenticação JSON Web Tokens(JWT) totalmente funcional com tempo de expiração configurado para 1 hora que pode ser alterado no arquivo `controller.rs linha 27`
 
 ## Instalação
 Asegure que já tenha o Rust e o Cargo instalado na sua maquina, se não só seguir os passo do link baixo
@@ -16,12 +16,39 @@ Asegure que já tenha o Rust e o Cargo instalado na sua maquina, se não só seg
 </table>
 
 1. Clone o repositório.
-2. Execute o comando `cargo run` ou se preferir `cargo whatch -x run` para instalar as dependências.
 
+## Banco de dados
+Neste projeto foi utilizado o banco de dados Mysql segue abaixo os scripts para criação das tabelas
+1. Tabela Teams
+
+CREATE TABLE `teams` (
+  `team_id` int(11) NOT NULL AUTO_INCREMENT,
+  `type_teams` varchar(4) NOT NULL,
+  `description` varchar(150) NOT NULL,
+  PRIMARY KEY (`team_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+2. Tabela Users
+-- apstech.users definition
+
+CREATE TABLE `users` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `name_user` varchar(20) NOT NULL,
+  `password` varchar(50) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
+  `date_register` datetime DEFAULT current_timestamp(),
+  `date_update` datetime DEFAULT NULL,
+  `team` int(11) NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3700 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+3. Para configurar a string do seu banco de dados basta criar uma arquivo `.env` na raiz do projeto e incluir a linha `DATABASE_URL=mysql://USUARIO:SENHA@IPBASE/NOMEBASE
+   
 ## Uso
 
-1. Execute o comando `npm start` para iniciar o projeto.
-2. Acesse o projeto em `http://localhost:3000`.
+1. Execute o comando `cargo run` ou se preferir `cargo whatch -x run` para iniciar o projeto.
+2. Acesse o projeto em `http://localhost:8088`.
+   
+   2.1. Caso queria iniciar este projeto em uma porta diferente basta acessar o arquivo `Rocket.toml` e port para a porta desejada
 
 ## Contribuição
 
