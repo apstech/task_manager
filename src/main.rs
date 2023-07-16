@@ -17,15 +17,23 @@ use controllers::controller;
 
 #[launch]
 fn rocket() -> Rocket<Build> {
-    rocket::build().mount(
-        "/",
-        routes![
-            controllers::controller::login,
-            controllers::controller::users,
-            controllers::controller::teams,
-            controllers::controller::new_team,
-            controllers::controller::new_user,
-            controllers::controller::unauthorized
-        ],
-    )
+    rocket::build()
+        .mount(
+            "/",
+            routes![
+                controllers::controller::login,
+                controllers::controller::users,
+                controllers::controller::teams,
+                controllers::controller::new_team,
+                controllers::controller::new_user,
+                controllers::controller::unauthorized
+            ],
+        )
+        .register(
+            "/",
+            catchers![
+                controllers::controller::not_found,
+                controllers::controller::not_autorized
+            ],
+        )
 }

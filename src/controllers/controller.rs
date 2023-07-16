@@ -152,3 +152,13 @@ pub fn new_team(_auth_guard: AuthGuard, sighting: Json<New_Teams>) -> Json<Teams
             .unwrap(),
     )
 }
+
+#[catch(404)]
+pub fn not_found() -> String {
+    r#"{"error": 404,"message": "Not Found"}"#.to_string()
+}
+
+#[catch(401)]
+pub fn not_autorized() -> String {
+    r#"{"error": 401,"message": "Unauthorized"}"#.to_string()
+}
