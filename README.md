@@ -58,7 +58,7 @@ CREATE TABLE `users` (
 4. Envie um pull request.
 
 ## Desenvolvedor
-<img src="[https://scontent.fgru17-1.fna.fbcdn.net/v/t39.30808-1/310680803_5864470323564365_8168816820447016518_n.jpg?stp=dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEadTE2Jx1deixSCz3hIEhnjtuZX7e2MMuO25lft7Ywy0F3sTdQl7gwX9l-t60eiUWEQE_jnVC1_wIqvN14O8Fs&_nc_ohc=hizvs__1QTcAX8OACQA&_nc_ht=scontent.fgru17-1.fna&oh=00_AfDeEBWemBdCe4DtSYixTH140u8CB9I5WjX9G37GWT8RYA&oe=649EC87B](https://scontent.fcgh5-1.fna.fbcdn.net/v/t39.30808-6/310680803_5864470323564365_8168816820447016518_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tvpzRvh19VwAX8hHJZx&_nc_zt=23&_nc_ht=scontent.fcgh5-1.fna&oh=00_AfDs0qaOAFyk6bdQJxZKAcVWPkLdlU8SKXWZ6vLrA6GdXA&oe=64BBDDB9)https://scontent.fcgh5-1.fna.fbcdn.net/v/t39.30808-6/310680803_5864470323564365_8168816820447016518_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tvpzRvh19VwAX8hHJZx&_nc_zt=23&_nc_ht=scontent.fcgh5-1.fna&oh=00_AfDs0qaOAFyk6bdQJxZKAcVWPkLdlU8SKXWZ6vLrA6GdXA&oe=64BBDDB9" width="64" />
+<img src="https://media.licdn.com/dms/image/C5603AQHNSiG0I8Fghw/profile-displayphoto-shrink_200_200/0/1612642843448?e=1695254400&v=beta&t=QGy5YlHCJXdc5RZb2HmKXo7WaiXM8v4uqAqhYOH3Fj0" width="64" />
 
 Alexandre Silva
 
