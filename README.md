@@ -58,7 +58,7 @@ CREATE TABLE `users` (
 4. Envie um pull request.
 
 ## Desenvolvedor
-<img src="https://media.licdn.com/dms/image/C5603AQHNSiG0I8Fghw/profile-displayphoto-shrink_200_200/0/1612642843448?e=1695254400&v=beta&t=QGy5YlHCJXdc5RZb2HmKXo7WaiXM8v4uqAqhYOH3Fj0" width="64" />
+<img src="bf71a9a3-574e-41d3-90e7-a3839c85d634.jpeg" width="64" />
 
 Alexandre Silva
 
